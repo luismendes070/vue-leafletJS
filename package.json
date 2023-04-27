@@ -9,10 +9,10 @@
   },
   "dependencies": {
     "vue": "^3.2.26",
-    "leaflet: "",
-    "@types/leaflet":"",
+    "leaflet: "1.9.3",
+    "@types/leaflet":"1.9.3",
     "geojson":"",
-    "@types/geojson":"",
+    "@types/geojson":"7946.0.10",
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^4.4.0",
