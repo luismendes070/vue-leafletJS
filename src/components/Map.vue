@@ -1,3 +1,4 @@
+<script>
 mounted() {
   // initialize the map
   const map = L.map("map").setView([51.505, -0.09], 13);
@@ -47,3 +48,11 @@ mounted() {
 
   L.geoJSON(geojson).addTo(map);
 }
+
+export default {
+  name: 'Map',
+  props: {
+  }
+}
+
+</script>
